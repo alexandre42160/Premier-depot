@@ -36,3 +36,12 @@ int multiplication(int a, int b)
 
     return resultat;
 }
+
+int exposant (int nb,int exp,int resultat)*
+{
+	for (i=0;i!=exp;i++)
+	{
+		resultat=resultat*nb;
+	}
+return resultat ;
+}
