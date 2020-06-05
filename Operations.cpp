@@ -47,7 +47,7 @@ return resultat ;
 }
 int factoriel(int fact)
 {
-    for(i=-1;i!=1 ;i++)
+    for(i=-1;i!=fact;i++)
     {
         fact=fact*i;
     }
