@@ -37,11 +37,20 @@ int multiplication(int a, int b)
     return resultat;
 }
 
-int exposant (int nb,int exp,int resultat)*
+int exposant (int nb,int exp,int resultat)
 {
 	for (i=0;i!=exp;i++)
 	{
 		resultat=resultat*nb;
 	}
 return resultat ;
+}
+int factoriel(int fact)
+{
+    for(i=-1;i!=1 ;i++)
+    {
+        fact=fact*i;
+    }
+
+   return fact;
 }
