@@ -12,6 +12,6 @@ int factoriel (int fact) ;
 
 int exposant (int nb,int exp,int resultat);
 
-int Coordonnées (int x1 ,int x2,int y1,int y2);
+int Coordonnées (int x1 ,int x2,int y1,int y2,int resu);
 
 
