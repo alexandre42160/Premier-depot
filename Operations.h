@@ -7,3 +7,7 @@ int division (int a, int b);
 int multiplication (int a, int b);
 
 int factoriel (int fact) ;
+
+int exposant (int nb,int exp,int resultat);
+
+
