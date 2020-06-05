@@ -1,4 +1,5 @@
 #include "Operations.h"
+#include <iostream>
 
 int addition(int a, int b)
 {
@@ -53,4 +54,11 @@ int factoriel(int fact)
     }
 
    return fact;
+}
+
+int Coordonnées (int x1 ,int x2,int y1,int y2,int resu)
+{
+  resu = sqrt(pow((x2-x1),2)+pow((y2-y1),2))
+  
+  return resu;
 }
